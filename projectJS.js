@@ -1,8 +1,3 @@
-/* Mariana Perez
-    WEB-115 
-    FINAL PROJECT */
-
-//---- 2. External javascript with name project.js ----//
 
 //--- (H1) to write NAME with specific style --- //
 var nameHeader = document.createElement('h1');
@@ -43,7 +38,7 @@ function isValidPhone(e){
     }
 }
 
-/* ------ 10. VALIDATE EMAIL ------- */
+/* ------ VALIDATE EMAIL ------- */
 var email = document.getElementById("email");
 email.addEventListener("change", isValidEmail);
 
@@ -74,7 +69,7 @@ document.getElementById("myForm").addEventListener('keydown', function(e){
 })
  
 
-//-----19. CREATE RESUME ON-THE-FLY -----
+//----- CREATE RESUME ON-THE-FLY -----
 //add event listener to the button that will generate a new Web page.
 var resume = document.getElementById("createResume");
 resume.addEventListener("click", createResume);
