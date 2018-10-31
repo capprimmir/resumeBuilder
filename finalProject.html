@@ -1,0 +1,146 @@
+<!-- Mariana Perez 
+    WEB-115 
+    Final Project -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 1. Title bar should be WEB 115 Final Project -->
+        <title> WEB 115 Final Project </title>
+        <link rel="stylesheet" href="projectCSS.css">
+                
+    </head>
+    
+    <body>
+        <!-- 3. Link to external JavaScript document named projectJS RIGHT AFTER THE OPENING BODY TAG-->
+        <!-- Best practice would be to have the link right before the clossing body tag. -->
+        <script src="projectJS.js" defer> </script>
+        <div id="container">
+        
+            <!-- use to place the h1 and h2 created in the js. file -->
+            <div id="mainTitle"></div>
+
+            <!--4. horizontal rule that is 60% of user's crseen -->
+            <hr width="60%">
+
+            <!-- 5. create centered title -->
+            <h1 class="title">Build Your Resume</h1>
+
+            <form action="" id="myForm">
+                <div class="infoDiv"> 
+                    <h3 class="infoTitle" >Contact Information</h3>
+
+                    <!-- 7. text box for full name -->
+                    <input type="text" id="userName" size="50" placeholder="Enter full name" required/>
+                    
+                    <!-- 8.text box for street address -->
+                    <p>
+                        <input type="text" id="address" size="80" placeholder="Enter address"/>
+                    </p>
+                    <!-- 9. text box for phone number -->
+                    <p>
+                        <input type="text" id="phone" size="50" placeholder="Phone Number (123-123-1122)"/>
+                    </p>
+                    <!-- 10. text box for email -->
+                    <p>
+                        <input type="text" id="email" size="50" placeholder="name@email.com"/>
+                    </p>
+                </div>
+
+                <div class="infoDiv">
+                    <h3 class="infoTitle">Adittional Information</h3>
+                    <!-- 12. form textarea for the user to enter personal data -->
+                    <p>
+                        <textarea id="personalData" rows="5" cols="80" placeholder="Please Enter Personal Data"></textarea>
+                    </p>
+                    <!-- 13. form textarea for the user to enter career objectives -->
+                    <p>
+                        <textarea id="objectives" placeholder="Please Enter Career Objectives" rows="5" cols="80"></textarea>
+                    </p>
+                    <!-- 14. form textarea for the user to enter educational background -->
+                    <p>
+                        <textarea id="education" placeholder="Please Enter Educational Background" rows="5" cols="80" ></textarea>
+                    </p>
+                </div>
+                <div class="infoDiv">
+                    <h3 class="infoTitle">Employment History</h3>
+                    <p class="employment"><i>Starting from the most recent employment</i></p>
+
+                    <!-- 15. Create a text box of type DATE to accept entry date of previous employment -->
+                    <!-- (1) -->
+                    <p>
+                        <label for="entryDate1">Entry Date: </label>
+                        <input class="entryDate" type="date" id="entryDate1"/>
+                    </p>
+                    <p>
+                        <label for="exitDate1">Exit Date: </label>
+                        <input class="exitDate" type="date" id="exitDate1"/>
+                    </p>
+                    <p>
+                    <!-- 16. Use form textarea tag to create to accept details of the emplyment  -->
+                        <textarea class="experience" placeholder="Please Enter Details Of the Employment Experience" rows="5" cols="80"></textarea>
+                    </p>
+                    <br />
+
+                    <!-- 17. Repeat steps 15 and 16 to accept 3 more employment experience -->
+                    <!-- (2) -->
+                    <p>
+                        <label for="entryDate2">Entry Date: </label>
+                        <input class="entryDate" type="date" id="entryDate2"/>
+                    </p>
+                    <p>
+                        <label for="exitDate2">Exit Date: </label>
+                        <input class="exitDate" type="date" id="exitDate2"/>
+                    </p>
+                    <p>
+                        <textarea class="experience" placeholder="Please Enter Details Of the Employment Experience" rows="5" cols="80"></textarea>
+                    </textarea>
+                    </p>
+                    <br />
+                    <!-- (3) -->
+                    <p>
+                        <label for="entryDate3">Entry Date: </label>
+                        <input class="entryDate" type="date" id="entryDate3"/>
+                    </p>
+                    <p>
+                        <label for="exitDate3">Exit Date: </label>
+                        <input class="exitDate" type="date" id="exitDate3"/>
+                    </p>
+                    <p>
+                        <textarea class="experience" placeholder="Please Enter Details Of the Employment Experience" rows="5" cols="80"></textarea>
+                    </p>
+                    <br />
+                    <!-- (4) -->
+                    <p>
+                        <label for="entryDate4">Entry Date: </label>
+                        <input class="entryDate" type="date" id="entryDate4"/>
+                        </p>
+                    <p>
+                        <label for="exitDate4">Exit Date: </label>
+                        <input class="exitDate" type="date" id="exitDate4"/>
+                    </p>
+                    <p>
+                        <textarea class="experience" placeholder="Please Enter Details Of the Employment Experience" rows="5" cols="80"></textarea>
+                    </p>
+                    <br />
+                </div>
+                <div class="infoDiv">
+                    <!-- 18. Use from textarea tag to get details of business references -->
+                    <h3 class="infoTitle">Bussiness References</h3>
+                    <p>
+                        <textarea id="business" rows="5" cols="80" placeholder="Please enter details about business references"></textarea>
+                    </p>
+
+                    <!-- 19. Create a form button named Create Resume  -->
+                    <p>
+                        <button id="createResume">Create Resume</button>
+                        <button id="reset" onclick="reset()">Reset Form</button>
+                    </p> 
+
+                </div>
+            </form>
+        </div>
+                
+    </body>
+
+</html>
