@@ -1,0 +1,114 @@
+
+div#container{
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+/* style for H1 name 
+.nameHeader{
+    text-align: center;
+    font-family: Tahoma;
+    color: red;
+}
+*/
+
+/* style for course Name and section number */
+.courseName{
+    text-align: center;
+    font-family: Garamond;
+    color: red;
+    font-style: italic;
+}
+
+/* center title */
+.title{
+    text-align: center;
+}
+
+.infoDiv{
+    font-family: Garamond;
+    background-color:  #f2f2f2;
+    margin: 2%;
+    padding: 3% 6%;
+}
+input[type=text], input[type=date], textarea{
+    font-family: Garamond;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+input[type=text]{
+    width: 95%;
+    padding: 2%;
+    
+}
+textarea{
+    width: 95%;
+    margin: auto;
+    padding: 2%;
+    
+}
+input[type=date]{
+    padding: 1%;
+    width: 40%;
+    
+}
+label {
+    display: block;
+    margin-bottom: .5%;
+    font-size: 1.2em;
+    color:#515c6d;
+    
+}
+.infoTitle{
+    margin-top: 0%;
+    margin-bottom: 6%;   
+    letter-spacing: 1px;
+    font-size: 1.5em;
+}
+button{
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 1.5em;
+    font-family: Garamond;
+    background-color: #515c6d;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* -- STYLE FOR THE NEW PAGE --- */
+ /* centers form content of the page */
+.mainDiv{
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 10%;
+    padding-top: 5%;
+      
+}
+div .headerResume{
+    margin: 2%;
+}
+/* -- STYLE FOR THE TWO LAYOUT COLUMN NEW PAGE --- */
+.leftDiv{
+    clear: both;
+    width: 30%;
+    float: left;
+    margin: 2%;
+}
+.rightDiv{
+    width: 60%;
+    float: right;
+    margin: 2%;
+}
+
+
+
+
+
+
+
+
